@@ -27,16 +27,13 @@
     padding: 20px 36px;
     color: #F15B22;
 }
-
 section{
     margin-top: 130px;
 }
-
 .section-title{
     font-weight: 700;
     font-size: 42px;
 }
-
 .text-center{
     text-align: center;
 }
@@ -53,7 +50,7 @@ section{
 }
 .header-container{
     text-align: right;
-    padding-top: 250px;
+    padding-top: 350px;
     padding-right: 230px;
     width: 500px;
     right: 130px;
@@ -68,6 +65,42 @@ section{
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+/* About Me Section Style */
+.about-container{
+    display: flex;
+}
+.about-div{
+    padding-bottom: 30px;
+    width: 600px;
+}
+.image-div{
+    width: 600px;
+    height: 600px;
+    background-image: url('images/profile.png');
+    background-size: cover;
+    border-radius: 15px;
+}
+.education-container{
+    display: inline-block;
+    padding-left: 90px;
+    width: 400px;
+}
+.education-year{
+    font-weight: 700;
+    font-size: 22px;
+    color: #151414;
+    padding-bottom: 8px;
+}
+.education-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 24px;
+}
+.education-header{
+    padding-top: 20px;
 }
 
 /* Failure Section Style */
@@ -182,5 +215,4 @@ footer{
     list-style: none;
     padding: 0;
     gap: 20px;
-
 }
