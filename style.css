@@ -75,6 +75,9 @@ main{
     padding-bottom: 30px;
     width: 600px;
 }
+.about-description{
+    padding-top: 10px;
+}
 .image-div{
     width: 600px;
     height: 600px;
